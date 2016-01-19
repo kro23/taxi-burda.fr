@@ -1,3 +1,3 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+taxi_main:
+    resource: "@taxiMainBundle/Resources/config/routing.yml"
+    prefix:   /
