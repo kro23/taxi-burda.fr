@@ -1,0 +1,26 @@
+{
+  "name": "taxi-burda.fr",
+  "version": "1.0.0",
+  "description": "taxi-burda.fr =============",
+  "main": "GruntFile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-symlink": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kro23/taxi-burda.fr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kro23/taxi-burda.fr/issues"
+  },
+  "homepage": "https://github.com/kro23/taxi-burda.fr#readme"
+}

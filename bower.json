@@ -1,0 +1,23 @@
+{
+  "name": "taxi-burda.fr",
+  "homepage": "https://github.com/kro23/taxi-burda.fr",
+  "authors": [
+    "kro23 <league@kro23.fr>"
+  ],
+  "description": "reservation de taxi",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/vendor-front",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

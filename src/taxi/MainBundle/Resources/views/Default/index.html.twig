@@ -1,12 +1,14 @@
-{% block lddt_main %}
+{% extends "taxiMainBundle::main_n2.html.twig" %}
+{% block taxi_main %}
+
     <div class="container">
         <div id="wrapper">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div id="slider">
-                        <img src="img/taxi-1.jpeg">
-                        <img src="img/taxi-2.jpeg">
-                        <img src="img/taxi-3.jpeg">
+                        <img src="{{ asset('bundles/app/images/taxi-1.jpeg') }}">
+                        <img src="{{ asset('bundles/app/images/taxi-2.jpeg') }}">
+                        <img src="{{ asset('bundles/app/images/taxi-3.jpeg') }}">
                     </div><!--fin du slider-->
                 </div>
             </div><!--fin de row slider-->
@@ -98,8 +100,17 @@
             <div class="row spacer">
                 <div class="col-md-7">
                     <section class="taxi">
-                        <img class="img-taxi" src="img/taxi.jpg" alt="le taxi">
+                        <img class="img-taxi" src="{{ asset('bundles/app/images/taxi-v-2.jpg') }}" alt="le taxi">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consectetur modi nemo nisi porro saepe. Adipisci blanditiis consequatur debitis deleniti eos libero modi molestias nobis, perferendis perspiciatis sed temporibus.</p>
+                        <div class="voiture">
+                            <h5>Nissan crossover qashqai</h5>
+                            <ul>
+                                <li>7 place</li>
+                                <li>toit panoramique</li>
+                                <li>siege bebe a disposition</li>
+                            </ul>
+
+                        </div>
                     </section>
                 </div><!--fin de md-7-->
                 <div class="col-md-5">
@@ -192,4 +203,4 @@
             </div><!--fin de row-->
         </div><!--fin de wrapper-->
     </div><!--fin de container-->
-{% endblock lddt_main %}
+{% endblock taxi_main %}

@@ -1,0 +1,566 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+
+    padding: 0;
+}
+
+
+@media screen and (max-width:991px){
+    section .services-post span {
+        margin-bottom: 0px;
+    }
+
+    /*menu buger*/
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border-color: yellow;
+    }
+
+    #navbar{
+        background-color: #222;
+        width: 100%;
+        margin-right: 60px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 0px;
+    }
+
+    .col-md-12 #nav-color{
+        margin-bottom: 15px;
+        margin-top: 15px;
+        padding:0px;
+        background-color: #222;
+        height: 70px;
+        border-radius: 5px;
+    }
+
+    #logo{
+        vertical-align: top;
+        width: 200px;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+        background-color: #CCCCCC;
+    }
+
+}
+
+
+@media screen and (min-width:991px) and (max-width:1200px){
+    section .services-post:first-child {
+        height: 50px;
+    }
+}
+
+/*nav bootstrap*/
+
+.collapse ,.navbar-collapse{
+    padding-left: 0;
+    margin-right: 0;
+}
+
+/*section nav*/
+.navbar-default{
+    padding-top: 2px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    z-index: 1030;
+}
+
+/* a active*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+    color: yellow;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: yellow;
+}
+
+
+/******************************mon style*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: #CCCCCC;
+}
+
+header .col-md-2{
+}
+
+header .col-md-10{
+    padding-right: 0;
+}
+
+/* tout la nav avec le logo*/
+nav ,.navbar ,.navbar-default{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+
+/*************************** section logo*************************/
+
+
+#logo span{
+    color: white;
+}
+
+#logo{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    height: 53px;
+    color: yellow;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+/********************************slider************************/
+#slider{
+    max-width: 100%;
+}
+
+.slider_container{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px #222
+
+}
+
+.slider_bandeau{
+    position: absolute;
+    top:0px;
+}
+
+.prev_btn, .next_btn{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 40%;
+    display: none;
+    cursor: pointer;
+}
+
+.prev_btn{
+    background-image: url("/bundles/app/images/prev.png");
+    left: 10px;
+
+}
+
+.next_btn{
+    background-image: url("/bundles/app/images/next.png");
+    right: 10px;
+}
+
+.slider_caption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: none;
+}
+
+/***************************wrapper******************/
+/*section services*/
+.services{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #303030
+}
+
+.services-content{
+    margin-left: 90px;
+}
+
+.services-post span{
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.img-taxi{
+    float: left;
+    width:350px;
+    height:250px;
+    border-radius: 5px 0 0 0;
+}
+
+.voiture{
+    clear: both;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.taxi{
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 386px;
+    box-shadow: 0px 0px 5px 1px #303030
+}
+
+
+
+#wrapper .col-md-7{
+    padding-right: 0px;
+}
+
+/*place l icon au centre */
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color: #428bca;
+    border-radius: 100%;
+    line-height:60px;
+    text-align:center;
+    display:inline-block;
+}
+
+/* balise i pour les icone*/
+.fa{
+    color: white;
+    line-height: inherit;
+}
+
+
+
+h2 ,.avis h3 ,.contact h3 , .formulaire-cout h4{
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+.spacer{
+    padding-top: 15px;
+}
+
+#map_taxi {
+    width:457px;
+    height:386px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #303030
+
+}
+/******************* calendrie statique *******************/
+.info_horaires_content{
+    height:39px;
+    /* 39px + 1px de border = 40px
+       soit 4 fois la taille d'1/4 d'heure
+    */
+    border-bottom:1px solid rgb(221,221,221);
+    color:rgb(68,102,136);
+    font-size:0.8em;
+    font-weight:normal;
+    /*background-color:rgb(232,238,247);*/
+}
+
+#calendrier td
+{
+    border-left: 1px solid rgb(221,221,221);
+    border-right: 1px solid rgb(221,221,221);
+    font-family: "Trebuchet MS", "Times", serif;
+    font-size: 1em;
+    background-image:url('/bundles/app/images/calendar_cell.gif');
+    background-repeat:repeat;
+    background-position:top right;
+    width:99px;
+    border-width:1px;
+    border-color:#d7d7d7;
+    border-style:solid;
+}
+
+#calendrier th
+{
+    background-color: #CCDFFE;
+    font-size: 0.8em;
+    font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
+    color:rgb(68,102,136);
+    font-size:0.7em;
+    font-weight:normal;
+}
+
+#calendrier table
+{
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendrier{
+    border: 1px solid #B9BEBD;
+    box-shadow: 0px 0px 5px 1px #303030
+}
+
+
+/*************************reservation*******************/
+/**** calendrie rdv ******/
+
+div.info_horaires_content_rdv{
+    height:40px;
+    /* 39px + 1px de border = 40px
+       soit 4 fois la taille d'1/4 d'heure
+    */
+    border-bottom:1px solid rgb(221,221,221);
+    color:rgb(68,102,136);
+    font-size:1em;
+    font-weight:normal;
+    /*background-color:rgb(232,238,247);*/
+}
+
+td.info_horaires_rdv{
+    background-color:rgb(232,238,247);
+    width:75px;
+    text-align:center;
+}
+
+#calendrier_rdv td
+{
+    border-left: 1px solid rgb(221,221,221);
+    font-family: "Trebuchet MS", "Times", serif;
+    font-size: 0.8em;
+    background-image:url("bundles/app/images/calendar_cell.gif");
+    background-repeat:repeat;
+    background-position:top right;
+    width:12.5%;
+}
+
+#calendrier_rdv th
+{
+    background-color: #CCDFFE;
+    font-size: 0.8em;
+    font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
+    color:rgb(68,102,136);
+    font-size:0.7em;
+    font-weight:normal;
+}
+
+#calendrier_rdv table
+{
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendrier_rdv th a{
+    color: rgb(68,102,136);
+    text-decoration:none;
+}
+#calendrier_rdv th a:hover{
+    text-decoration:underline;
+}
+
+#calendrier_rdv{
+    border: 1px solid #B9BEBD;
+    box-shadow: 0px 0px 5px 1px #303030
+}
+
+.desc-calendrier{
+    background-color: #222;
+    color: yellow;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 1px #303030
+}
+/**** pack course ****/
+.pack1{
+    text-align: center;
+}
+
+.pack1 h3{
+    border-bottom: solid 1px #dee3db;
+    margin: -1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: yellow;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+.pack1{
+    border: solid 1px #dee3db;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.prix{
+    font-size: 30px;
+}
+
+.pack1 hr{
+    width: 80%;
+    border-color: #b3b3b3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: dotted;
+}
+
+.pack1 .btn{
+    margin-bottom: 10px;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+
+.pack1:hover{
+    box-shadow: 0px 0px 10px 5px #303030
+}
+
+/********************* avis client******************/
+.avis{
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 499px;
+    box-shadow: 0px 0px 5px 1px #303030
+}
+
+/*************page tarif********************/
+
+
+
+
+
+
+#map-calcule{
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#form_calcule .radio {
+    margin-left: 20px;
+}
+
+.gauche{
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+#depart ,#arrivee{
+    box-shadow: 0 1px 6px #838383 inset;
+}
+
+.formulaire-cout .col-md-4{
+    padding-right: 0px;
+}
+
+input[type="button"]{
+    width: 100%;
+}
+
+.resultat{
+    background-color: #222;
+    border-radius: 0 0 5px 5px;
+    margin-top: 10px;
+    color: yellow;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.resultat label{
+    float: left;
+}
+
+#output{
+    color: orange;
+    border: none;
+    background-color: #222;
+    width: 150px;
+    display: inline;
+    text-align: right;
+}
+
+.form_marge{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.formulaire-cout h4{
+    padding-top: 5px;
+}
+
+.radio{
+    padding-top: 5px;
+}
+
+.legende span, .estimation span{
+    color: #F04B52;
+}
+
+.legende h3, .tarif-95 h3, .estimation h3{
+    border-bottom: solid 1px #dee3db;
+    margin: -1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: yellow;
+    background-color: #222;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/***********footer********/
+.footer{
+    background-color: #222;
+    height: 50px;
+    border-radius: 5px;
+    color: yellow;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 15px;
+}
+
+
+
+
