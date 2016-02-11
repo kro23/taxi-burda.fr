@@ -1,0 +1,12 @@
+{% trans_default_domain 'FOSUserBundle' %}
+<div class="well clearfix">
+    <h1>Inscription</h1>
+    <hr>
+{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+    {{ form_widget(form) }}
+    <div>
+        <br>
+        <input type="submit" value="{{ 'registration.submit'|trans }}" class="pull-right btn btn-success" />
+    </div>
+{{ form_end(form) }}
+</div>

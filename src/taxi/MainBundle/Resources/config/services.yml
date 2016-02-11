@@ -1,4 +1,5 @@
 services:
-#    taxi_main.example:
-#        class: taxi\MainBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    taxi.form.registration:
+        class: taxi\UserBundle\Form\RegistrationFormType
+        tags:
+            - { name: form.type, alias: taxi_user_registration }

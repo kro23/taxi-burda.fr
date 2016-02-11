@@ -1,3 +1,10 @@
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+taxi_user:
+      resource: "@taxiUserBundle/Resources/config/routing.yml"
+      prefix:   /
+
 taxi_main:
     resource: "@taxiMainBundle/Resources/config/routing.yml"
     prefix:   /

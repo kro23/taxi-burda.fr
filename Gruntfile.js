@@ -17,7 +17,7 @@ module.exports = function(grunt){
             },
             target: {
                 files: {
-                    'web/built/app/css/taxi.min.css': ['app/Resources/public/css/override.css', 'app/Resources/public/css/custom.css']
+                    'web/built/app/css/taxi.min.css':  'app/Resources/public/css/custom.css'
                 }
             }
         },
